@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0" version="27.1.1">
+  <diagram name="Pagina-1" id="ykhQd0iy18PIUTsSq67p">
+    <mxGraphModel dx="1003" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jBXSgnicVDDzgwTTFDAE-1" value="Connessione" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="210" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jBXSgnicVDDzgwTTFDAE-3" value="-cittàpartenza: String&lt;div&gt;-cittàarrivo: String&lt;/div&gt;&lt;div&gt;-distanzakm: double&lt;/div&gt;&lt;div&gt;-tempomedio: float&lt;/div&gt;&lt;div&gt;-getpartenza: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jBXSgnicVDDzgwTTFDAE-1">
+          <mxGeometry y="30" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jBXSgnicVDDzgwTTFDAE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="jBXSgnicVDDzgwTTFDAE-1" source="jBXSgnicVDDzgwTTFDAE-3" target="jBXSgnicVDDzgwTTFDAE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jBXSgnicVDDzgwTTFDAE-4" value="&lt;div&gt;+Connessione&lt;/div&gt;&lt;div&gt;+getPartenza: String&lt;/div&gt;&lt;div&gt;+getArrivo(): String;&lt;/div&gt;&lt;div&gt;+getDistanza(): double&lt;/div&gt;&lt;div&gt;+getTempo(): float&lt;/div&gt;&lt;div&gt;+setPartenza(): void&lt;/div&gt;&lt;div&gt;+setArrivo(): void&lt;/div&gt;&lt;div&gt;+setDistanza(): void&lt;/div&gt;&lt;div&gt;+setTempo(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jBXSgnicVDDzgwTTFDAE-1">
+          <mxGeometry y="90" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jBXSgnicVDDzgwTTFDAE-7" value="AutoStrada" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="410" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jBXSgnicVDDzgwTTFDAE-8" value="-pedaggio: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jBXSgnicVDDzgwTTFDAE-7">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jBXSgnicVDDzgwTTFDAE-10" value="+getPedaggio: float&lt;div&gt;+setPedaggio: void&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jBXSgnicVDDzgwTTFDAE-7">
+          <mxGeometry y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jBXSgnicVDDzgwTTFDAE-13" value="Statale" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="410" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jBXSgnicVDDzgwTTFDAE-14" value="-nsemafori: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jBXSgnicVDDzgwTTFDAE-13">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jBXSgnicVDDzgwTTFDAE-16" value="+getSemafori: int&lt;div&gt;+setSemafori: void&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jBXSgnicVDDzgwTTFDAE-13">
+          <mxGeometry y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jBXSgnicVDDzgwTTFDAE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.133;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jBXSgnicVDDzgwTTFDAE-7" target="jBXSgnicVDDzgwTTFDAE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jBXSgnicVDDzgwTTFDAE-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.805;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jBXSgnicVDDzgwTTFDAE-13" target="jBXSgnicVDDzgwTTFDAE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
